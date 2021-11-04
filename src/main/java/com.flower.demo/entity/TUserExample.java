@@ -11,7 +11,7 @@ public class TUserExample {
     protected List<Criteria> oredCriteria;
 
     public TUserExample() {
-        oredCriteria = new ArrayList<Criteria>();
+        oredCriteria = new ArrayList<>();
     }
 
     public void setOrderByClause(String orderByClause) {
