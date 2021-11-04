@@ -2,6 +2,7 @@ package com.flower.demo.mapper;
 
 import com.flower.demo.entity.TUser;
 import com.flower.demo.entity.TUserExample;
+
 import java.util.List;
 
 public interface TUserMapper {

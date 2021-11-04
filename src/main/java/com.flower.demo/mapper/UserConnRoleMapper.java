@@ -2,6 +2,7 @@ package com.flower.demo.mapper;
 
 import com.flower.demo.entity.UserConnRole;
 import com.flower.demo.entity.UserConnRoleExample;
+
 import java.util.List;
 
 public interface UserConnRoleMapper {

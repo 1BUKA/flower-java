@@ -44,6 +44,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .exceptionHandling().authenticationEntryPoint(jwtAuthenticationEntryPoint)
                 .and()
                 .authorizeRequests()
+                .antMatchers("/flower/**").permitAll()
                 //.antMatchers("/sysUser/test").permitAll()
                 //.antMatchers(HttpMethod.OPTIONS, "/**").anonymous()
                 //.antMatchers(HttpMethod.OPTIONS).permitAll()//跨域请求会先进行一次options请求

@@ -2,6 +2,7 @@ package com.flower.demo.mapper;
 
 import com.flower.demo.entity.Role;
 import com.flower.demo.entity.RoleExample;
+
 import java.util.List;
 
 public interface RoleMapper {
